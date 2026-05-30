@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog & Insights | Sactech Control System</title>
+  <meta name="description" content="Latest updates, technical insights and industry trends from the world of electrical and automation by Sactech Control System.">
+  <link rel="canonical" href="https://sactechcontrol.com/blog.html">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="blog">
+  <div data-site-header></div>
+  <main>
+    <section class="page-hero compact" data-bg="hero-2.webp">
+      <div class="container page-hero-copy">
+        <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Blog</span></div>
+        <h1>Our <span class="text-orange">Blog</span> & Insights</h1>
+        <p class="lead">Latest updates, technical insights and industry trends from the world of Electrical & Automation.</p>
+        <div class="accent-line" style="margin-left:0"></div>
+      </div>
+    </section>
+    <section class="section alt">
+      <div class="container blog-layout">
+        <div>
+          <p class="eyebrow">Featured Article</p>
+          <article class="blog-card featured-blog">
+            <img src="assets/images/electrician-panel.webp" alt="The Future of Industrial Automation" loading="lazy">
+            <div class="blog-body">
+              <span class="tag">Automation</span>
+              <div class="meta"><span>May 20, 2025</span></div>
+              <h2>The Future of Industrial Automation: Trends Shaping 2025</h2>
+              <p>Explore the top automation trends, emerging technologies, and how industries can leverage smart solutions for higher productivity and efficiency.</p>
+              <a class="btn" href="#post-1" data-open-modal="blog-1">Read More <span>→</span></a>
+            </div>
+          </article>
+          <p class="eyebrow">All Articles</p>
+          <div class="card-grid three" data-blog-grid></div>
+        </div>
+        <aside class="sidebar">
+          <div class="side-box" style="background:#061423;color:#fff">
+            <h3 style="color:#fff">Search Blog</h3>
+            <form class="search-box" onsubmit="event.preventDefault(); document.querySelector('[data-blog-grid]').scrollIntoView({behavior:'smooth'});">
+              <input type="search" placeholder="Search articles..." aria-label="Search articles">
+              <button class="btn" type="submit">⌕</button>
+            </form>
+          </div>
+          <div class="side-box">
+            <h3>Categories</h3>
+            <ul class="category-list">
+              <li>Industrial Automation <strong style="float:right">12</strong></li>
+              <li>Electrical Solutions <strong style="float:right">10</strong></li>
+              <li>Control Panels <strong style="float:right">09</strong></li>
+              <li>Maintenance Tips <strong style="float:right">08</strong></li>
+              <li>Industry Trends <strong style="float:right">07</strong></li>
+              <li>Safety & Standards <strong style="float:right">06</strong></li>
+              <li>Company Updates <strong style="float:right">05</strong></li>
+            </ul>
+          </div>
+          <div class="side-box">
+            <h3>Recent Posts</h3>
+            <div data-recent-posts></div>
+          </div>
+          <div class="side-box" style="background:#061423;color:#fff">
+            <h3 style="color:#fff">Stay Updated</h3>
+            <p>Subscribe to our newsletter for the latest updates and insights.</p>
+            <form class="newsletter" data-newsletter>
+              <input name="email" type="email" placeholder="Enter your email" required>
+              <button class="btn" type="submit" style="margin-top:12px">Subscribe <span>→</span></button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

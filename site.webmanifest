@@ -1,0 +1,16 @@
+{
+  "name": "Sactech Control System",
+  "short_name": "Sactech",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061423",
+  "theme_color": "#061423",
+  "description": "Electrical, automation and industrial manpower solutions.",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "585x426",
+      "type": "image/png"
+    }
+  ]
+}
